@@ -1,0 +1,133 @@
+.card img {
+  height: auto;
+  width: 100%;
+  border-bottom-left-radius:25%;
+    border-bottom-right-radius:25%;
+}
+.card {
+  box-shadow: -1px 0px 34px -10px rgba(0, 0, 0, 1);
+  width: 30%;
+  margin-top: 82px;
+}
+.section2-main {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 60px;
+}
+.section2-main h1 {
+  font-size: 30px;
+}
+.section2-right {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+}
+.card input {
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  outline: none;
+  border-width: thin;
+  margin-bottom: 15px;
+  width: 100%;
+  border-color: rgb(223, 220, 220);
+}
+.card button {
+  padding: 10px;
+  background: green;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  width: 100%;
+}
+.section-back {
+  background: rgb(247, 244, 244);
+}
+.section3 {
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
+}
+.section3-left {
+  margin-left: 20px;
+  margin-top: 20px;
+  /* display: flex;
+      flex-direction: column;
+      justify-content: center; */
+}
+.section3-right img {
+  height: 80%;
+  width: 500px;
+}
+.section3-right {
+  justify-content: flex-end;
+  display: flex;
+}
+.customer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.customer h1 {
+  font-size: 30px;
+}
+.customer p {
+  width: 37%;
+  text-align: center;
+  margin-top: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .section2-main {
+    display: block;
+    padding-top: 1px;
+  }
+  .card {
+    width: 81% !important;
+    margin-left: 33px;
+    display: flex;
+    flex-direction: column;
+  }
+  .section2-right {
+    margin-top: 47px;
+    width: 100%;
+  }
+  .section2-right h1 {
+    text-align: center;
+  }
+  .section2-right p {
+    text-align: center;
+  }
+  .section3{
+      display: block;
+  }
+  .section3-left{
+      text-align: center;
+  }
+  .section3-left p{
+    font-size: 13px;
+  }
+  .section3-right{
+    margin-top: 34px;
+    justify-content: center;
+  }
+  .section3-right img{
+      width: 80%;
+  }
+  .customer p{
+    width: 85%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .card {
+    width: 43%;
+  }
+  .section3-right img{
+    height: 61%
+  }
+}
