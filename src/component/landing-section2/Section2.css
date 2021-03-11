@@ -1,8 +1,6 @@
 .card img {
   height: auto;
   width: 100%;
-  border-bottom-left-radius:25%;
-    border-bottom-right-radius:25%;
 }
 .card {
   box-shadow: -1px 0px 34px -10px rgba(0, 0, 0, 1);
